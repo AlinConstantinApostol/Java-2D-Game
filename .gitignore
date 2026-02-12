@@ -1,0 +1,34 @@
+﻿# IntelliJ / Java
+.idea/
+*.iml
+out/
+target/
+
+# Logs
+*.log
+
+# Env / secrets
+.env
+
+# Local DB / data files (keep locally)
+*.db
+*.sqlite
+*.sqlite3
+
+# PDFs (optional: keep locally, not in repo)
+*.pdf
+
+# --- IMPORTANT: do NOT ignore source/docs folders ---
+!src/
+!src/**
+!docs/
+!docs/**
+
+#DB generated files
+*.db
+*.sqlite
+*.sqlite3
+
+#OS
+.DS_Store
+Thumbs.db
